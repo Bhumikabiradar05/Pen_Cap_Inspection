@@ -1,0 +1,49 @@
+{
+    "labels": [
+        "pen"
+    ],
+    "amount_of_images": 218,
+    "image_color_mode": "color",
+    "image_size": "size_32",
+    "split": {
+        "train": 150,
+        "val": 34,
+        "test": 34
+    },
+    "split_ratio": {
+        "train": 70,
+        "val": 15,
+        "test": 15
+    },
+    "description": "All the images are in the data folder (70% train / 15% val / 15% test).",
+    "total_creation_time": "0:01:33.583630",
+    "augmentation": {
+        "active": false,
+        "augmentation_count": 0,
+        "augmentations": [],
+        "description": "Augmented images have an _aug suffix."
+    },
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ],
+        "note": "ImageNet default — pair with transforms.Normalize(mean, std) in PyTorch or tf.image.per_image_standardization equivalents."
+    },
+    "about": {
+        "provide_by": "www.images.cv",
+        "useful_links": [
+            "https://images.cv/how-to-use",
+            "https://images.cv/faq",
+            "https://images.cv/computer-vision-dataset-categories",
+            "https://images.cv/computer-vision-image-datasets-index",
+            "https://images.cv/contact"
+        ]
+    }
+}

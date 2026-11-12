@@ -1,0 +1,11 @@
+{
+  "raw_image_files": 218,
+  "successfully_read": 218,
+  "read_errors": 0,
+  "provisional_unique_copies": 94,
+  "review_copies": 124,
+  "similar_pairs_found": 178,
+  "strict_distance": 6,
+  "borderline_distance_upper_limit": 12,
+  "warning": "Review all borderline and duplicate candidates manually before approving the final dataset."
+}

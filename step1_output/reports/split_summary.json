@@ -1,0 +1,22 @@
+{
+  "approved_images_split": 94,
+  "similarity_groups": 94,
+  "target_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "actual_image_counts": {
+    "train": 66,
+    "validation": 14,
+    "test": 14
+  },
+  "actual_percentages": {
+    "train": 70.21,
+    "validation": 14.89,
+    "test": 14.89
+  },
+  "group_phash_distance": 6,
+  "random_seed": 42,
+  "note": "Groups are kept together; actual ratios may differ from targets."
+}
